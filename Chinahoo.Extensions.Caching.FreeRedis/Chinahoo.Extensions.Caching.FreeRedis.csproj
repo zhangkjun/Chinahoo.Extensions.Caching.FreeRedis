@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FreeRedis" Version="0.3.7" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="5.0.11" />
+  </ItemGroup>
+
 </Project>
