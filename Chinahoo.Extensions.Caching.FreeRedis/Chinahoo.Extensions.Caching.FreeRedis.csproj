@@ -2,7 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>爱益云创科技有限公司</Authors>
+    <Company>爱益云创科技有限公司</Company>
+    <PackageProjectUrl>https://github.com/zhangkjun/Chinahoo.Extensions.Caching.FreeRedis</PackageProjectUrl>
+    <PackageIcon>logo.jpg</PackageIcon>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\文档\爱益云创\logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FreeRedis" Version="0.3.7" />
